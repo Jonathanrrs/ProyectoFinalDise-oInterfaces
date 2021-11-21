@@ -1,0 +1,773 @@
+body {
+    background-color: #20232A;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    
+}
+body::-webkit-scrollbar-thumb {
+    background: #FF9153;
+    border-radius: 4px;
+}
+
+/* home */
+.navbar-brand {
+    /* AdoBe Pizza */
+
+
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+nav {
+    background-color: #20232A;
+}
+
+nav a {
+    /* Combos */
+
+font-family: Ropa Sans;
+font-style: normal;
+font-weight: normal;
+
+color: #FFFFFF;
+
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FF9153;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.main-part1 h1{
+    
+font-family: Prata;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 87px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.main-part1 p {
+    /* Las mejores pizzas, ensaladas, crepas y brownies de Colima. */
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+}
+
+.btn-main{
+
+    background: #FF9153;
+    box-shadow: 0px 0px 30px #FF9153;
+    border-radius: 30px;
+    border: none;
+    width: 255px;
+    height: 61px;
+    font-size: 30px;
+    
+
+    /* Ver pizzas */
+
+
+
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+
+    color: #000000;
+
+
+}
+
+.main-part2 img {
+    border-radius: 10px;
+}
+
+.aboutus-container {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-container h5 {
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+
+    color: #FFFFFF;
+
+
+}
+
+.carousel.slide {
+    width: 1000px;
+    align-self: center;
+}
+.slider {
+    border-radius: 10px;
+}
+.aboutus-message {
+    width: 1000px;
+    align-self: center;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+
+
+}
+
+footer {
+    background-color: #FF9153;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.footer-adobe {
+    grid-column: 2/3;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+
+
+}
+
+.footer-combos {
+    grid-column: 1/2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-pizzas {
+    grid-column: 1/2;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-bebidas {
+    grid-column: 1/2;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-ensaladas {
+    grid-column: 2/3;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-postres {
+    grid-column: 2/3;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-contactanos {
+    grid-column: 2/3;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-copy {
+    grid-column: 2/3;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: black;
+}
+
+.footer-cel {
+    grid-column: 3/4;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-correo {
+    grid-column: 3/4;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socialmedia {
+    grid-column: 3/4;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+footer p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+/* combos */
+
+.combos-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.combos-img img{
+    border-radius: 10px;
+}
+.combos-main-btn button {
+    background-color: #53A2FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    background: #53A2FF;
+    box-shadow: 0px 0px 30px #53A2FF;
+    border-radius: 10px;
+}
+
+.combos-main-btn p{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+}
+
+.combo-crepas-container {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.combo-crepas-container h5 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+
+    color: #FFFFFF;
+}
+
+.combo-crepas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.combo-crepas-grid p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+.combo-crepas-grid img {
+    
+    border-radius: 10px;
+}
+
+/* pizzas */
+
+.pizzas-main-btn button{
+    background-color: #FC4F4F;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    box-shadow: 0px 0px 30px #FC4F4F;
+    border-radius: 10px;
+}
+
+.combo-pizzas-container {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+}
+.combo-pizzas-container h5{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+
+}
+.card-body h5{
+    color: black;
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-price {
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+
+}
+
+.pizza-gr {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FC4F4F;
+
+
+}
+
+.pizzas-clasicas {
+    color: #F9A253;
+}
+
+.pizzas-chidas {
+    color: #FF5555;
+}
+.pizzas-favoritas {
+    color: #F6DE01;
+}
+
+/* ensaladas */
+.ensaladas-main-btn button {
+    background-color: #0EC135;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    box-shadow: 0px 0px 30px #0EC135;
+    border-radius: 10px;
+}
+
+.ensaladas-container {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ensaladas-container h5 {
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: white;
+
+    align-self: flex-start;
+}
+
+.ensalada-img {
+    border-radius: 15px;
+}
+.ensalada-ingredientes {
+ 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+
+
+}
+
+.ensaladas-info-container {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-evenly;
+    
+}
+.ensalada-normal-container {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.ensalada-normal-container p, .ensalada-mini-container p {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    
+
+    color: #000000;
+
+}
+
+.ensalada-normal-small-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.ensalada-price {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #000000;
+
+
+}
+
+.ensalada-gr {
+ 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FC4F4F;
+
+
+}
+.ensalada-mini-container {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+
+/* bebiudas */
+
+.bebidas-main-btn button {
+    background-color: #0EB7C1;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    box-shadow: 0px 0px 30px #0EB7C1;
+    border-radius: 10px;
+}
+
+.bebidas-text {
+    color: white;
+}
+
+/* postres */
+.postres-main-btn button {
+    background-color: #C1640E;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    box-shadow: 0px 0px 30px #C1640E;
+    border-radius: 10px;
+}
+
+.postres-text {
+    color: white;
+}
+
+.postres-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.postres-img img{
+    width: 600px;
+    border-radius: 10px;
+}
+.postres-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.postres-info-container p {
+    color: white;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+
+}
+.postres-info-container small {
+    align-self: flex-end;
+    /* $59.00 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FF9153;
+
+
+}
+
+.postres-brownie-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Contáctanos */
+
+.contactanos-main-btn button {
+    background-color: #C10EA5;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 255px;
+    height: 61px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    box-shadow: 0px 0px 30px #C10EA5;
+    border-radius: 10px;
+}
+
+form {
+    color: white;
+}
+
+input {
+    border-radius: 15px !important;
+}
+textarea {
+    border-radius: 10px !important;
+}
+input, textarea {
+    width: 50% !important;
+    border: 2px solid #FF9153 !important;
+}
+
+.contactanos-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contactanos-btn {
+
+    width: 170px;
+    height: 40px;
+    background: #FF9153;
+    box-shadow: 0px 0px 30px #FF9153;
+    border-radius: 30px;
+    border: none;
+
+ 
+
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #000000;
+
+
+
+}
+
+

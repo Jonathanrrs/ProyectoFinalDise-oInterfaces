@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Pizza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand" href="index.html">
+          AdoBe Pizza
+          <svg width="30" height="30" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M56.5 29.5C56.5 44.9883 44.1638 57.5 29 57.5C13.8362 57.5 1.5 44.9883 1.5 29.5C1.5 14.0118 13.8362 1.5 29 1.5C44.1638 1.5 56.5 14.0118 56.5 29.5Z"
+              fill="black" stroke="white" stroke-width="3" />
+            <ellipse cx="29.25" cy="29.2389" rx="17.75" ry="19.3186" fill="#E80000" />
+            <path
+              d="M31.9781 33.8944C31.2653 32.2832 32.717 30.564 34.337 31.1006L46.1954 35.0288C47.5466 35.4764 48.017 37.2243 47.0837 38.3296L40.4424 46.1951C39.5091 47.3005 37.7896 47.032 37.1951 45.6881L31.9781 33.8944Z"
+              fill="white" />
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="combos.html">Combos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="pizzas.html">Pizzas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bebidas.html">Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ensaladas.html">Ensaladas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="postres.html">Postres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="combos-main">
+    <div class="combos-img">
+      <img src="./imgs/pizzas/fondo.jpg" width="500">
+    </div>
+    <div class="pizzas-main-btn">
+      <button>Pizzas</button>
+      <p class="mt-3">Conoce toda nuestra variedad de
+        deliciosas pizzas</p>
+    </div>
+  </div>
+
+  <!-- menu pizzas -->
+
+  <div class="container mt-5">
+    <div class="combo-pizzas-container">
+      <h5 class="pizzas-clasicas">Las clásicas</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/adobe.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Margarita</h5>
+              <p class="card-text">Queso, jitomate, albahaca
+                deshidratada, y especias</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$71.00</small>
+              <small class="pizza-gr">254 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pepe.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pepe-champi</h5>
+              <p class="card-text">Pepperoni y champiñones</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">370 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/mexicana.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Mexicana</h5>
+              <p class="card-text">Jitomate, cebolla, chile
+                verde natural y chorizo</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">3878 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/hawaiana.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Hawaiiana</h5>
+              <p class="card-text">Jamón y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">362 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/red hawaina.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Red Hawaiiana</h5>
+              <p class="card-text">Pepperoni y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">362 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/maui.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Maui</h5>
+              <p class="card-text">Champiñones y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">317 g</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="combo-pizzas-container mt-5">
+      <h5 class="pizzas-chidas">Las chidas</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/ibai.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Ibiza</h5>
+              <p class="card-text">Salami, piña y tocino</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$79.00</small>
+              <small class="pizza-gr">355 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/vegetariana.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Vegetariana</h5>
+              <p class="card-text">Champiñones, cebolla,
+                pimiento verde, espinacas
+                y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$79.00</small>
+              <small class="pizza-gr">347 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/roma.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Roma</h5>
+              <p class="card-text">Pepperoni, champiñones,
+                cebolla, pimiento y aceitunas negras</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$79.00</small>
+              <small class="pizza-gr">361 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/española.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Española</h5>
+              <p class="card-text">Jamón serrano, cebolla
+                morada y aceitunas negras</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$79.00</small>
+              <small class="pizza-gr">315 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/martierra.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Mar y tierra</h5>
+              <p class="card-text">Camarones, salami,
+                cebolla morada, aceitunas negras y pimiento verde/p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$79.00</small>
+              <small class="pizza-gr">293 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pichocha.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pichocha</h5>
+              <p class="card-text">Piña, chorizo y
+                champoñones</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$77.00</small>
+              <small class="pizza-gr">317 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/martierra.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Chicken-Sriracha</h5>
+              <p class="card-text">Pollo capeado, cebollín,
+                salsa sriracha</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">305 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pichocha.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Especial de la casa</h5>
+              <p class="card-text">Jamón, champiñones,
+                cebolla, pimiento verde y
+                espinacas</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$75.00</small>
+              <small class="pizza-gr">317 g</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="combo-pizzas-container mt-5">
+      <h5 class="pizzas-favoritas">Las favoritas</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/adobe.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Adobe</h5>
+              <p class="card-text">Jamón, pepperoni,
+                champiñones, cebolla,
+                pimiento verde, chile verde,
+                chorizo, espinacas y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">407 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/bbkchicken.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">BBQ chicken</h5>
+              <p class="card-text">Pollo capeado, tocino,
+                cebolla morada, BBQ
+                chipotle y piña</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">330 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pastor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Al pastor</h5>
+              <p class="card-text">Carne al pastor, piña y
+                cebolla</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">298 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/carnivora.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Carnivora</h5>
+              <p class="card-text">Pepperoni, salami, chorizo,
+                tocino y salchicha</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">305 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/martierra.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Burger pizza</h5>
+              <p class="card-text">Carne de hamburguesa,
+                tocino, pepinillos, cebolla,
+                ketchup y mostaza</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">285 g</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pichocha.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buffalo</h5>
+              <p class="card-text">Alitas sin hueso, apio, salsa
+                buffalo, BBQ y ranch</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$84.00</small>
+              <small class="pizza-gr">300 g</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="mt-5">
+    <div class="footer-adobe">
+      AdoBe Pizza
+      <svg width="30" height="30" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M56.5 29.5C56.5 44.9883 44.1638 57.5 29 57.5C13.8362 57.5 1.5 44.9883 1.5 29.5C1.5 14.0118 13.8362 1.5 29 1.5C44.1638 1.5 56.5 14.0118 56.5 29.5Z"
+          fill="black" stroke="white" stroke-width="3" />
+        <ellipse cx="29.25" cy="29.2389" rx="17.75" ry="19.3186" fill="#E80000" />
+        <path
+          d="M31.9781 33.8944C31.2653 32.2832 32.717 30.564 34.337 31.1006L46.1954 35.0288C47.5466 35.4764 48.017 37.2243 47.0837 38.3296L40.4424 46.1951C39.5091 47.3005 37.7896 47.032 37.1951 45.6881L31.9781 33.8944Z"
+          fill="white" />
+      </svg>
+    </div>
+    <a href="combos.html" class="footer-combos">Combos</a>
+    <a href="pizzas.html" class="footer-pizzas">Pizzas</a>
+    <a href="bebidas.html" class="footer-bebidas">Bebidas</a>
+    <a href="ensaladas.html" class="footer-ensaladas">Ensaladas</a>
+    <a href="postres.html" class="footer-postres">Postres</a>
+    <a href="contactanos.html" class="footer-contactanos">Contáctanos</a>
+    <p class="footer-copy">COPYRIGHT TOGOFOOD © TODOS LOS DERECHOS RESERVADOS</p>
+    <p class="footer-cel">312 181 4321</p>
+    <p class="footer-correo">adobepizza@hotmail.com</p>
+    <div class="footer-socialmedia">
+      <a href="https://www.facebook.com/adobepizza">
+        <img src="./imgs/facebook.png" height="30" width="30">
+      </a>
+      <a href="https://www.instagram.com/adobepizza/">
+        <img src="./imgs/instagram.png" height="30" width="30">
+      </a>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

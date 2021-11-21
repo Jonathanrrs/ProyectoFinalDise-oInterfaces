@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Pizza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand" href="index.html">
+          AdoBe Pizza
+          <svg width="30" height="30" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M56.5 29.5C56.5 44.9883 44.1638 57.5 29 57.5C13.8362 57.5 1.5 44.9883 1.5 29.5C1.5 14.0118 13.8362 1.5 29 1.5C44.1638 1.5 56.5 14.0118 56.5 29.5Z"
+              fill="black" stroke="white" stroke-width="3" />
+            <ellipse cx="29.25" cy="29.2389" rx="17.75" ry="19.3186" fill="#E80000" />
+            <path
+              d="M31.9781 33.8944C31.2653 32.2832 32.717 30.564 34.337 31.1006L46.1954 35.0288C47.5466 35.4764 48.017 37.2243 47.0837 38.3296L40.4424 46.1951C39.5091 47.3005 37.7896 47.032 37.1951 45.6881L31.9781 33.8944Z"
+              fill="white" />
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="combos.html">Combos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pizzas.html">Pizzas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="bebidas.html">Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ensaladas.html">Ensaladas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="postres.html">Postres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="combos-main">
+    <div class="combos-img">
+      <img src="./imgs/bebidas/bebidas.jpeg" width="500">
+    </div>
+    <div class="bebidas-main-btn">
+      <button>Bebidas</button>
+      <p class="mt-3">Disfruta de nuestras bebidas mientras
+        te comes una deliciosa pizza.</p>
+    </div>
+  </div>
+
+
+  <!-- menu bebidas -->
+
+  <div class="container mt-5">
+    <div class="combo-pizzas-container">
+      <h5 class="bebidas-text">Bebidas clásicas</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/te helado.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Té helado</h5>
+              <p class="card-text">Toma todo el que puedas</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$30.00</small>
+              <small class="pizza-gr">600 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/pizzas/pepe.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Refresco o agua
+                mineral</h5>
+              <!-- <p class="card-text">Pepperoni y champiñones</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$30.00</small>
+              <small class="pizza-gr">600 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/copa de vino.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Copa de vino</h5>
+              <!-- <p class="card-text">Jitomate, cebolla, chile 
+                            verde natural y chorizo</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$45.00</small>
+              <small class="pizza-gr">160 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/conchatoro.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Botella de Merlot</h5>
+              <p class="card-text">Concha y toro</p>
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$210.00</small>
+              <small class="pizza-gr">750 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/agua.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Botella de agua</h5>
+              <!-- <p class="card-text">Pepperoni y piña</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$19.00</small>
+              <small class="pizza-gr">500 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/cafe.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Taza de café</h5>
+              <!-- <p class="card-text">Champiñones y piña</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$25.00</small>
+              <small class="pizza-gr">300 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/sangria.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Sangría de la casa</h5>
+              <!-- <p class="card-text">Salami, piña y tocino</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$47.00</small>
+              <small class="pizza-gr">380 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/limonada.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Limonada mineral
+                o natural</h5>
+              <!-- <p class="card-text">Champiñones, cebolla, 
+                            pimiento verde, espinacas
+                            y piña</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$44.00</small>
+              <small class="pizza-gr">650 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/clericot.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Clericot</h5>
+              <!-- <p class="card-text">Pepperoni, champiñones,
+                            cebolla, pimiento y  aceitunas negras</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$47.00</small>
+              <small class="pizza-gr">380 ml</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="combo-pizzas-container mt-5">
+      <h5 class="bebidas-text">Botella de cerveza</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/tecate light.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tecate light
+                o Indio</h5>
+              <!-- <p class="card-text">Jamón serrano, cebolla 
+                            morada y aceitunas negras</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$28.00</small>
+              <small class="pizza-gr">325 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/xxlarguer.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">XX laguer o
+                Bohemia</h5>
+              <!-- <p class="card-text">Camarones, salami, 
+                            cebolla morada, aceitunas negras y pimiento verde/p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$28.00</small>
+              <small class="pizza-gr">325 ml / 355 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/heineken.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Heineken</h5>
+              <!-- <p class="card-text">Piña, chorizo y
+                            champoñones</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$30.00</small>
+              <small class="pizza-gr">330 ml</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="combo-pizzas-container mt-5">
+      <h5 class="bebidas-text">Michelada o chelada</h5>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/tecate light.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tecate light
+                o Indio</h5>
+              <!-- <p class="card-text">Jamón serrano, cebolla 
+                            morada y aceitunas negras</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$54.00</small>
+              <small class="pizza-gr">650 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/xxlarguer.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">XX laguer o
+                Bohemia</h5>
+              <!-- <p class="card-text">Camarones, salami, 
+                            cebolla morada, aceitunas negras y pimiento verde/p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$54.00</small>
+              <small class="pizza-gr">370 ml</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imgs/bebidas/heineken.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Heineken</h5>
+              <!-- <p class="card-text">Piña, chorizo y
+                            champoñones</p> -->
+            </div>
+            <div class="card-footer">
+              <small class="pizza-price">$55.00</small>
+              <small class="pizza-gr">650 ml</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- footer -->
+  <footer class="mt-5">
+    <div class="footer-adobe">
+      AdoBe Pizza
+      <svg width="30" height="30" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M56.5 29.5C56.5 44.9883 44.1638 57.5 29 57.5C13.8362 57.5 1.5 44.9883 1.5 29.5C1.5 14.0118 13.8362 1.5 29 1.5C44.1638 1.5 56.5 14.0118 56.5 29.5Z"
+          fill="black" stroke="white" stroke-width="3" />
+        <ellipse cx="29.25" cy="29.2389" rx="17.75" ry="19.3186" fill="#E80000" />
+        <path
+          d="M31.9781 33.8944C31.2653 32.2832 32.717 30.564 34.337 31.1006L46.1954 35.0288C47.5466 35.4764 48.017 37.2243 47.0837 38.3296L40.4424 46.1951C39.5091 47.3005 37.7896 47.032 37.1951 45.6881L31.9781 33.8944Z"
+          fill="white" />
+      </svg>
+    </div>
+    <a href="combos.html" class="footer-combos">Combos</a>
+    <a href="pizzas.html" class="footer-pizzas">Pizzas</a>
+    <a href="bebidas.html" class="footer-bebidas">Bebidas</a>
+    <a href="ensaladas.html" class="footer-ensaladas">Ensaladas</a>
+    <a href="postres.html" class="footer-postres">Postres</a>
+    <a href="contactanos.html" class="footer-contactanos">Contáctanos</a>
+    <p class="footer-copy">COPYRIGHT TOGOFOOD © TODOS LOS DERECHOS RESERVADOS</p>
+    <p class="footer-cel">312 181 4321</p>
+    <p class="footer-correo">adobepizza@hotmail.com</p>
+    <div class="footer-socialmedia">
+      <a href="https://www.facebook.com/adobepizza">
+        <img src="./imgs/facebook.png" height="30" width="30">
+      </a>
+      <a href="https://www.instagram.com/adobepizza/">
+        <img src="./imgs/instagram.png" height="30" width="30">
+      </a>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
