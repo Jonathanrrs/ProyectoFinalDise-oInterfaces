@@ -134,14 +134,15 @@ color: #FFFFFF;
 }
 
 .carousel.slide {
-    width: 1000px;
+    /* width: 1000px; */
     align-self: center;
 }
 .slider {
     border-radius: 10px;
+    width: 800px;
 }
 .aboutus-message {
-    width: 1000px;
+    /* width: 1000px; */
     align-self: center;
 
 
@@ -768,6 +769,136 @@ input, textarea {
 
 
 
+}
+
+
+/* responsive home */
+
+@media (max-width: 1200px) { 
+    .main-part2 img {
+        width: 500px;
+    }
+
+    .slider {
+        width: 600px;
+    }
+    
+}
+@media (max-width: 1000px) { 
+    .main-part1 h1 {
+        font-size: 45px;
+    }
+    .main-part1 p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .btn-main{
+        width: 200px;
+        height: 61px;
+        font-size: 30px;
+    }
+    .main-part2 img {
+        width: 400px;
+    }
+
+    /* combos */
+    .combos-img img{
+        width: 400px;
+    }
+
+    .combos-main-btn button {
+        width: 200px;
+        height: 41px;
+    }
+
+    /* postres */
+
+    .postres-img img{
+        width: 400px;
+    }
+
+}
+@media (max-width: 768px) { 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .main-part1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-main{
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .main-part2 img {
+        margin-top: 20px;
+    }
+
+    .slider {
+        width: 450px;
+    }
+
+    /* combos */
+
+    .combos-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .combos-main-btn, .pizzas-main-btn,
+    .ensaladas-main-btn, .bebidas-main-btn,
+    .postres-main-btn, .contactanos-main-btn
+    {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* postres */
+    .postres-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .postres-info-container {
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width: 576px) { 
+
+    .slider {
+        width: 350px;
+    }
+
+    /* ensaladas */
+    .ensaladas-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ensalada-mini-container {
+        margin-top: 10px;
+    }
+
+    /* postres */
+
+    .postres-img img{
+        width: 300px;
+    }
 }
 
 
